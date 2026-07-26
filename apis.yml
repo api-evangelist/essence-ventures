@@ -1,7 +1,24 @@
 aid: essence-ventures
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/essence-ventures.png
 name: Essence Ventures
-description: Essence Ventures is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Essence Ventures is an independent, African American-owned media, technology, and
+  commerce company focused on content, community, and commerce for Black women and their communities.
+  Founded by Richelieu Dennis, it acquired Essence Communications (Essence magazine and the Essence
+  Festival of Culture) in 2018, and its portfolio of lifestyle brands has included Afropunk, BeautyCon,
+  and Essence Studios, reaching audiences across print, digital, video, social, and live events.
+  Essence Ventures does not operate a public developer program or API; this profile is maintained in
+  the API Evangelist network as a company/portfolio lead awaiting further enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/essence-ventures/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Media
+- Publishing
+- Events
+- Commerce
+- Community
 apis: []
+common:
+- type: Website
+  url: https://www.essence.com/
+- type: PrivacyPolicy
+  url: https://www.essence.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.essence.com/terms-of-use/
+- type: Support
+  url: https://www.essence.com/about/contact/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
